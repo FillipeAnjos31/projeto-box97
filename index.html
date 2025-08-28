@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box97 - Lavação Automotiva Premium</title>
+<link rel="stylesheet" href="estilo/style.css">
+
+
+</head>
+<body>
+<!-- Header -->
+<header>
+
+<div class="container">
+<nav>
+<a href="#" class="logo-container">
+<img src="https://lh3.googleusercontent.com/a-/ALV-UjU_YxmvsLl06udDxlAsrQowM8snn3ueMcBtH__kr-SteIYP8lo=w72-h72-p-rp-mo-br100" 
+        alt="Logo Box97 - Lavação Automotiva" 
+        class="logo-image"
+        onerror="this.style.display='none'; this.nextElementSibling.style.marginLeft='0'">
+<span class="logo-text">BOX97</span>
+</a>
+<div class="nav-links">
+<a href="#services">Serviços</a>
+<a href="#scheduling">Agendamento</a>
+<a href="#location">Localização</a>
+<a href="#gallery">Galeria</a>
+<a href="#contact">Contato</a>
+</div>
+</nav>
+</div>
+
+</header>
+
+
+<!-- Hero Section -->
+<section class="hero">
+<div class="container">
+<h1>Seu carro limpo com excelência</h1>
+<p>Lavação automotiva premium com tecnologia avançada e atendimento especializado</p>
+<a href="#scheduling" class="btn">Agendar Agora</a>
+</div>
+</section>
+
+
+<!-- Services -->
+<section id="services" class="services">
+<div class="container">
+<h2 class="section-title">Nossos Serviços</h2>
+<div class="services-grid">
+<div class="service-card">
+<img src="https://alpha5.com.br/wp-content/uploads/2024/04/lavacar-perto-de-mim.jpg" alt="Lavagem completa exterior com espuma densa e equipamento profissional" onerror="this.style.backgroundColor='#e0e0e0'" />
+<h3>Lavagem Completa</h3>
+<p>Limpeza profunda interna e externa com produtos premium</p>
+<p><strong>R$ 120,00</strong></p>
+</div>
+<div class="service-card">
+<img src="https://carsoul.com.br/wp-content/uploads/2023/01/RSA_MATERIA_02_IMAGEM_02.jpg" alt="Polimento profissional com máquina orbital aplicando cerâmica de alta duração" onerror="this.style.backgroundColor='#e0e0e0'" />
+<h3>Polimento e Cristalização</h3>
+<p>Recuperação do brilho original e proteção avançada</p>
+<p><strong>R$ 249,90</strong></p>
+</div>
+<div class="service-card">
+<img src="https://mecanicagarrett.com.br/wp-content/uploads/2019/07/higieniza%C3%A7%C3%A3o-de-ve%C3%ADculos-em-curitiba.jpg" alt="Higienização interna completa com vapor e produtos antialérgicos" onerror="this.style.backgroundColor='#e0e0e0'" />
+<h3>Higienização Interna</h3>
+<p>Limpeza profunda de estofados e componentes internos</p>
+<p><strong>R$ 159,90</strong></p>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- Scheduling System -->
+<section id="scheduling" class="scheduling">
+<div class="container">
+<h2 class="section-title">Agende seu Serviço</h2>
+<form id="agendamentoForm">
+<div class="form-grid">
+<div class="form-group">
+<label for="nome">Nome Completo</label>
+<input type="text" id="nome" name="nome" required>
+</div>
+<div class="form-group">
+<label for="telefone">Telefone</label>
+<input type="tel" id="telefone" name="telefone" required>
+</div>
+<div class="form-group">
+<label for="email">E-mail</label>
+<input type="email" id="email" name="email" required>
+</div>
+<div class="form-group">
+<label for="veiculo">Veículo</label>
+<input type="text" id="veiculo" name="veiculo" placeholder="Ex: Honda Civic 2022" required>
+</div>
+<div class="form-group">
+<label for="servico">Serviço Desejado</label>
+<select id="servico" name="servico" required>
+<option value="">Selecione um serviço</option>
+<option value="lavagem-completa">Lavagem Completa - R$ 120,00</option>
+<option value="polimento">Polimento e Cristalização - R$ 249,90</option>
+<option value="higienizacao">Higienização Interna - R$ 159,90</option>
+<option value="combo">Combo Completo - R$ 399,90</option>
+</select>
+</div>
+<div class="form-group">
+<label for="data">Data Preferida</label>
+<input type="date" id="data" name="data" required>
+</div>
+<div class="form-group">
+<label for="hora">Horário Preferido</label>
+<input type="time" id="hora" name="hora" required>
+</div>
+</div>
+<div class="form-group">
+<label for="observacoes">Observações</label>
+<textarea id="observacoes" name="observacoes" rows="3" placeholder="Alguma observação importante?"></textarea>
+</div>
+<button type="submit" class="btn" style="width: 100%; margin-top: 1rem;">Confirmar Agendamento</button>
+</form>
+<div id="agendamentoMessage" style="margin-top: 2rem; text-align: center; display: none;"></div>
+</div>
+</section>
+
+
+<!-- Location Section -->
+<section id="location" class="location">
+<div class="container">
+<h2 class="section-title">Nossa Localização</h2>
+<div class="location-grid">
+<div class="location-info">
+<h3>Venha nos visitar</h3>
+<p>📍 <strong>Endereço:</strong><br>Tv. da Liberdade, 97 - Campeche<br>Florianópolis - SC, 88063-210</p>
+<p>📞 <strong>Telefone:</strong> (48) 99117-4596</p>
+<p>⏰ <strong>Horário de Funcionamento:</strong><br>Segunda a Sexta: 08:00-17:00, Sábado 08:00-13:00</p>
+<p>🚗 <strong>Estacionamento:</strong> Disponível no local</p>
+</div>
+<div class="location-map">
+<img src="https://lh3.googleusercontent.com/p/AF1QipPGXzBm0Xvsja0JQl-VDKiHqPL3hDjnSEcRBq25=w426-h240-k-no" 
+alt="Localização da Box97 Lavação Automotiva na Travessa da Liberdade, Campeche - Florianópolis" 
+onerror="this.src='https://placehold.co/600x400/e0e0e0/0047AB?text=Mapa+da+Localização+Box97'">
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery">
+<div class="container">
+<h2 class="section-title">Galeria de Carros Lavados</h2>
+<div class="gallery-grid">
+<img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrBnJVSU28_hqGM3tbgE62JThPro7GId13F1nqMdB4IXCl1t6KY8pHD52kkGwdeDonNaweQAVvAFRic97_0Si9PKiZCtoOKWzmbGs9JyRaBYRoqWLpX6yiu9UuvNjWscafIJsGf=s680-w680-h510-rw" alt="Carro lavado 1" />
+<img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4no5YW60JcssVnTqCxx68ynfvM61JyB1Zy2DTFSZAGkZstcuJ3d5ZSb_sdVO059wo-72vjz_peC5Mu3HSen3h7ClgkIL5IcCy5qrmT7ZJ1W_y6NWTepP0hF9B_ByJBst0ApWhLkP=s680-w680-h510-rw" alt="Carro lavado 2" />
+<img src="https://lh3.googleusercontent.com/p/AF1QipMbQixW30J4cL1PVDxD0hjKhb-O5cY87x_NmzTW=s680-w680-h510-rw" alt="Carro lavado 3" />
+<img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrqYhFIidAUqpWEtBobMpGj8ZxtZqPPqJUC2zTVsAW4A2_YVRrLsUDM6-IVdwZwYW7N77jhNbR8lfxFi2qTdPo29NtUAE6l98QZChShGg2RVLZnBla2BbazAsI2n18Zs7ytNRiI=s680-w680-h510-rw" alt="Carro lavado 4" />
+<img src="https://lh3.googleusercontent.com/p/AF1QipMoALX4BwXJ18OzfSvcvq9RK3m7UZQQ34bbLfSi=s680-w680-h510-rw" alt="Carro lavado 5" />
+</div>
+</div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+<div class="container">
+<h2 class="section-title" style="color: white;">Entre em Contato</h2>
+<p>📞 Telefone: (48) 99117-4596</p>
+<a href="https://www.instagram.com/box97_limpeza_automotiva/" target="_blank">
+<p>📍 INSTAGRAM</p>
+</a>
+<div class="social-media">
+<a href="https://www.instagram.com/box97_limpeza_automotiva/" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
